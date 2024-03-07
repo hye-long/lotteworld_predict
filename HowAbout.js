@@ -75,3 +75,7 @@ function findDays() {
 
 findButton.addEventListener("click", findDays)
 
+
+/* 일주일치의 날씨를 가져오는 코드*/ 
+
+

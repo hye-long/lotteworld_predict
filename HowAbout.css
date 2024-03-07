@@ -1,0 +1,28 @@
+body {
+    background-color:rgb(239, 239, 239);
+    padding:40px; 
+    text-align: center;
+    /*원래 여기에 margin을 추가해줬는데 위의 공간이 없어서 select박스가 위로 나와서
+    위의 공간을 그냥 없애주었다. */ 
+}
+
+#when {
+    cursor:pointer;
+    margin-top:5px;
+    font-size: 20px;
+}
+
+
+header p{
+    font-size:0.9em;
+}
+
+
+
+footer #button{
+    cursor:pointer;
+    margin-top:30px;
+    font-size:70%;
+}
+
+

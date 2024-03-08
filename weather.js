@@ -54,7 +54,10 @@ $(document).ready(function () {
         
     }
 
-    var findButton = document.getElementById("button");
+
+    
+
+    const findButton = document.getElementById("button");
 
     findButton.addEventListener("click", ShowDates);
 
@@ -62,6 +65,8 @@ $(document).ready(function () {
         WeatherResult = result; 
     });
 });
+
+
 
 // ------
 

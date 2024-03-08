@@ -30,7 +30,7 @@
 
 // console.log(today);
 
-const findButton = document.getElementById("button")
+// const findButton = document.getElementById("button")
 const recommendDates = document.getElementById("dates")
 
 

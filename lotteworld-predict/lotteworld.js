@@ -4,7 +4,6 @@ $(document).ready(function () {
     var datesAndTempsList = $('#datesAndTemps');
     var currentRank = 0;
 
-    // Map to assign scores to weekdays
     const dayScores = {
         1: 6, 
         2: 5, 
@@ -52,10 +51,6 @@ $(document).ready(function () {
     
     
     
-    
-    
-
-
     function getWeekdays() {
         const weekdays = [];
 
@@ -66,7 +61,7 @@ $(document).ready(function () {
 
             const maxTemperature = WeatherResult.list[dayOffset].main.temp_max;
 
-            // Calculate total score by adding day score and temperature score
+            
             const totalScore = dayScores[dayOfWeek] + getTemperatureScore(maxTemperature);
 
             weekdays.push({
